@@ -28,7 +28,7 @@ namespace Veteriner
         public string breed { get; set; }
         public string gender { get; set; }
         public Nullable<System.DateTime> birth_date { get; set; }
-        public byte[] chip_number { get; set; }
+        public string chip_number { get; set; }
         public Nullable<System.DateTime> created_at { get; set; }
     
         public virtual Custormers Custormers { get; set; }
