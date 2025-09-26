@@ -27,7 +27,11 @@ namespace Veteriner
             //hayvan tüm bilgileri tolist çek combobox ata
             comboBox1.DisplayMember = "name";
             comboBox1.ValueMember = "Id";
+            doldur();
         }
-
+        private void doldur()
+        {
+            dataGridView1.DataSource = baglan.vaccinations.ToList();
+        }
     }
 }
