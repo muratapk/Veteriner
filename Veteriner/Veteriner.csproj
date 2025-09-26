@@ -105,6 +105,12 @@
     <Compile Include="vaccinations.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="VisitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisitForm.Designer.cs">
+      <DependentUpon>VisitForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="visits.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
