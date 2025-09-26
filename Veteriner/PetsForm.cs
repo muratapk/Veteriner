@@ -74,7 +74,7 @@ namespace Veteriner
         {
             int idno = Convert.ToInt16(Idtxt.Text);
             var result = baglan.Pets.Find(idno);
-            result.customers_id =Convert.ToInt32(comboBox1.ValueMember.ToString());
+           
             result.name = textBox1.Text;
             result.species = textBox2.Text;
             result.breed = textBox3.Text;
