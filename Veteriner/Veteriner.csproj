@@ -132,6 +132,9 @@
     <EmbeddedResource Include="VaccForm.resx">
       <DependentUpon>VaccForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VisitForm.resx">
+      <DependentUpon>VisitForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model1.Designer.cs</LastGenOutput>

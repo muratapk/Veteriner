@@ -16,7 +16,7 @@ namespace Veteriner
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VaccForm());
+            Application.Run(new VisitForm());
         }
     }
 }
