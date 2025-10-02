@@ -31,5 +31,6 @@ namespace Veteriner
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<vaccinations> vaccinations { get; set; }
         public virtual DbSet<visits> visits { get; set; }
+        public virtual DbSet<Admin> Admin { get; set; }
     }
 }

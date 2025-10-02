@@ -42,6 +42,11 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.Idtxt = new System.Windows.Forms.TextBox();
+            this.SıraNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.musteriAdi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -113,6 +118,12 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.SıraNo,
+            this.musteriAdi,
+            this.phone,
+            this.email,
+            this.address});
             this.dataGridView1.Location = new System.Drawing.Point(31, 249);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(527, 150);
@@ -166,6 +177,36 @@
             this.Idtxt.TabIndex = 13;
             this.Idtxt.Visible = false;
             // 
+            // SıraNo
+            // 
+            this.SıraNo.DataPropertyName = "Id";
+            this.SıraNo.HeaderText = "Sıra No";
+            this.SıraNo.Name = "SıraNo";
+            // 
+            // musteriAdi
+            // 
+            this.musteriAdi.DataPropertyName = "full_name";
+            this.musteriAdi.HeaderText = "Müşteri Adı";
+            this.musteriAdi.Name = "musteriAdi";
+            // 
+            // phone
+            // 
+            this.phone.DataPropertyName = "phone";
+            this.phone.HeaderText = "Telefon";
+            this.phone.Name = "phone";
+            // 
+            // email
+            // 
+            this.email.DataPropertyName = "email";
+            this.email.HeaderText = "EPosta";
+            this.email.Name = "email";
+            // 
+            // address
+            // 
+            this.address.DataPropertyName = "address";
+            this.address.HeaderText = "Adresi";
+            this.address.Name = "address";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -210,6 +251,11 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox Idtxt;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SıraNo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn musteriAdi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn phone;
+        private System.Windows.Forms.DataGridViewTextBoxColumn email;
+        private System.Windows.Forms.DataGridViewTextBoxColumn address;
     }
 }
 
